@@ -31,3 +31,15 @@ const seqFibonacci = (numeroInicial) => {
 
 seqFibonacci(10);
 
+// 5º questão 
+
+let stringExemplo = "Exemplo teste target";
+
+let stringTeste = "";
+
+for(let i = stringExemplo.length - 1; i >=0; i--) {
+    stringTeste += stringExemplo[i]; 
+    console.log(stringTeste);
+}
+
+console.log(stringTeste);
